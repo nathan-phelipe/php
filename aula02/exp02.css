@@ -1,0 +1,33 @@
+*{
+    margin: 0px; 
+    padding: 0px
+}
+h1{
+    background-color: darkslateblue;
+}
+
+.stytle{
+    background-color: purple;
+}
+
+p{
+    background-color: rgb(83, 0, 83);
+
+}
+
+.conteudo{
+    background-color: brown
+}
+
+.conteudo{
+    background-color: rgb(146, 96, 96)
+}
+
+.conteudo #titulo {
+    font-size: 40px;
+
+}
+
+p{
+    background-color: fuchsia;
+}

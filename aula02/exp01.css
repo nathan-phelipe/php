@@ -1,0 +1,42 @@
+html,body{
+background-color: rgb(73, 73, 73);
+color:rgb(99, 99, 99);
+
+}
+
+h1{
+    background-color: rgb(0, 238, 255);
+    text-align: center;
+    color:rgb(0, 59, 126);
+    font-family: Franklin Gothic Me'dium', 'Arial Narrow', Arial, sans-serif;
+    font:30px;
+    height: 120px;
+    width: 600px;
+    margin-left: 55px;
+}
+
+h2{
+    background-color: rgb(128, 198, 255);
+    margin: 20px;
+}
+
+p{
+background-color: rgb(156, 209, 255);
+padding-bottom: 50px;
+}
+
+#style1 {
+    background-color: rgb(139, 206, 206);
+}
+
+.style2{
+background-color: rgb(175, 232, 255);
+font-size: 40px; 
+
+}
+
+ 
+p{
+background-color: rgb(144, 173, 199);
+
+}
