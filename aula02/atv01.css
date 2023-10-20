@@ -1,16 +1,28 @@
 
-.estilo01{
 
-background-color: rgb(0, 4, 250);
-padding:300px ;
-
+.rgb01{
+    background-color: rgb(194, 37, 37);
+    height: 300px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
-.estilo2{
-background-color: dimgray;
+.rgb02{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    margin: 50px;
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+font-size: 90px;
 }
 
+.rgb03{
+    background-color: rgb(26, 26, 104);
+    padding-bottom:  300px; ;
+}
 
-.estilo3{
-    background-color: slategray;
+.rgb04{
+    background-color: rgb(255, 136, 0);
+    padding-bottom: 300px;
 }

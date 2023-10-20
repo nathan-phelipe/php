@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>atv01</title>
+<link rel="stylesheet" href="atv01.css">
 </head>
 <body>
 
-<div class=  "estilo1"   >
-</div>
+   <div class="rgb01">
+   <div class="rgb02">black</div>
+   </div>
 
-<div class="estilo2">
-</div>
-
-<div class="estilo3">
-</div>
-
-
+   <div class="rgb03"></div>
+   <div class="rgb04"></div>  
+ 
+   
 </body>
 </html>
