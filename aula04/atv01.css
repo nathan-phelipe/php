@@ -1,0 +1,10 @@
+.img{
+
+    height: 50px;
+    width: 50px;
+    background-image:url(cabeça-caveira-indigena.avif);
+    background-repeat: no-repeat;
+    border-color: black 2px;
+    margin-top: 2%;
+
+}
