@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(95, 182, 8);
+}
+
+.box{
+    background-color: darkorange;
+    display: grid;
+    grid-template-areas:"menuL titulo menuR"
+                        "menuL conteudo menuR"                         
+                        "rodape rodape rodape";
+grid-template-areas: 100px 1fr 50px;
+grid-template-columns: 100px 1fr 100px;
+}
+
+.titulo{
+    background-color: indigo;
+grid-area: menuL ;
+
+}
+
+.menuL{
+    background-color: purple;
+ grid-area: box ;
+
+}
+.conteudo{
+    background-color: blueviolet;
+    grid-area: conteudo ;
+}
+
+.menuR{
+background-color: darksalmon;
+grid-area:"menuR" ;
+
+}
+
+.rodape{
+background-color: chocolate;
+grid-area: rodape ;
+
+}

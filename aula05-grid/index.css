@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(0, 0, 119);
+}
+
+.box{
+    background-color: yellow;
+    height: 600px;
+    border: 10px white solid;
+    display: grid;
+    grid-template-areas:"menuL titulo titulo"
+                        "menuL conteudo menuR"                         
+                        "rodape rodape rodape";
+    grid-template-rows: 50px 1fr 90px;
+    grid-template-columns: 100px 1fr 100px;                     
+
+}
+
+.titulo{
+    background-color: red;
+    grid-area:titulo;
+}
+
+.menuL{
+    background-color: darkblue;
+    grid-area:menuL;
+}
+
+.conteudo{
+    background-color: rgb(0, 66, 0);
+    grid-area:conteudo;
+}
+
+.menuR{
+background-color: orange;
+     grid-area: menuR;
+}
+
+.rodape{
+    background-color: rgb(230, 98, 11);
+    grid-area: rodape;
+}
