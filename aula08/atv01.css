@@ -1,0 +1,48 @@
+body{
+    background-color: wheat;
+}
+
+.box{
+    height: 600px;
+    display: grid;
+    grid-template-areas: 'header header header'
+                         'aside section section'
+                         'aside section section'
+                         'footer footer footer';
+    grid-template-columns: 15% 50% 35%;
+    grid-template-rows: 25% 25% 25%;
+}
+
+header{
+    grid-area: header;
+    background-color: red;
+    text-align: center;
+}
+
+section{
+    grid-area: section;
+    background-color: yellow;
+}
+
+aside{
+    grid-area: aside;
+    background-color: violet;
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    background-color: brown;
+}
+
+.p1{
+
+}
+
+.p2{
+
+}
+
+.p3{
+
+}
