@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: green;
+}
+
+.corpo {
+    background-color: white;
+    margin-top: 3.5%;
+    margin-bottom: 7%;
+    padding-bottom: 10%;
+}
+
+.titulos {
+    padding: 1.5%;
+}
+
+#tema {
+    font-size: 20px;
+    text-align: center;
+}
+
+#titulo {
+    font-size: 70px;
+    color: green;
+    text-align: center;
+}
+
+.assunto {
+    display: grid;
+    grid-template-areas: "redacao imagens";
+    grid-template-columns: 65% 35%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+}
+
+.redacao {
+    grid-area: redacao;
+}
+
+#redacao {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.imagem  {
+  grid-area: imagens;
+  margin-left: 5%;
+}
+
+#img1 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-color: lightgray;
+    height: 48%;
+}
+
+#img2 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-color: lightgray;
+    height: 48%;
+    margin-top: 10%;
+}
+
+.linha {
+    height: 1px;
+    background-color: green;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
